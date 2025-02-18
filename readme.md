@@ -1,30 +1,38 @@
-Các bước thực hiện:
+# Jailbreak & installation Koreader for Kindle FW under 5.14.2 version
 
-1. Kiểm tra firmware máy
-2. Reset máy chọn ngôn ngữ English/United Kingdom
-3. Nhập ;enter_demo
-4. Nhập ;demo
-5. Chọn Side Load
-6. Copy filde đúng model và firmware vào thư mục .demo
-7. Copy thư mục .demo vào thư mục gốc của Kindle
-8. Chọn eject, rút cáp. Chọn Done - Exit
-9. Vào Setting chọn Help & User Guides, rồi chọn Get Started
-10. Nếu vào chế độ demo thì chạm 2 ngón vuốt 1 ngón như video
-11. Nhập ;uzb copy file trong thư mục vào Kindle
-12. Nhập ;dsts vào Setting chọn Update Your Kindle
-13. Nhập ;log mrpi
-    Sau khi khởi động là hoàn thành Jailbreak và Cài Kual & KOreader cho Kindle
+[Hướng dẫn bằng tiếng Việt ở đây](https://github.com/hungdev/jailbreak-kindle/blob/master/readme-vn.md)
 
-Nếu không có folder Kual trong kindle thì copy file Update_KUALBooklet_ALLDEVICES_KS2_install.bin cho vào thư mục gốc Kindle và rút cáp ra rồi vào setting chọn Update Your Kindle
+Steps to perform:
+
+1. Check the device firmware
+2. Reset the device and select English/United Kingdom as the language
+3. Enter ;enter_demo
+4. Enter ;demo
+5. Select Side Load
+6. Copy the correct model and firmware file into the .demo folder
+7. Copy the .demo folder to the root directory of the Kindle
+8. Select eject, disconnect the cable. Select Done - Exit
+9. Go to Settings, select Help & User Guides, then select Get Started
+10. If it enters demo mode, swipe with two fingers as shown in the video
+11. Enter ;uzb to copy files from the folder to the Kindle
+12. Enter ;dsts in Settings and select Update Your Kindle
+13. Enter ;log mrpi
+    After restarting, the Jailbreak and installation of Kual & KOreader for Kindle is complete
+
+If there is no Kual folder in the Kindle, copy the file Update_KUALBooklet_ALLDEVICES_KS2_install.bin to the root directory of the Kindle, disconnect the cable, then go to settings and select Update Your Kindle
 
 ---
 
-Trường hợp cài lỗi:
-Bước 1: trên ô search nhập lệnh ";exit_demo"
-Bước 2: nhập tiếp lệnh ";uzb" (để vào chế độ USB nếu khi cắm cap mà nó không có thư mục kindle thì lệnh này sẽ làm cho hiển thị)
-Bước 3: kết nối Kindle vào máy tính, copy file "DO_FACTORY_RESTORE" ( nhớ phải giải nén file .zip nhé) vào máy
-Bước 4: ngắt kết nối Kindle với máy tính, restart Kindle.
-Bước 5: Copy file 5.16.2.1 vào Kindle chọn Update và thực hiện lại thao tác từ đầu.
+In case of installation error:
+Step 1: In the search box, enter the command ";exit_demo"
+
+Step 2: Enter the command ";uzb" (to enter USB mode if the Kindle folder does not appear when the cable is connected, this command will make it visible)
+
+Step 3: Connect the Kindle to the computer, copy the file "DO_FACTORY_RESTORE" (make sure to unzip the .zip file) to the device
+
+Step 4: Disconnect the Kindle from the computer, restart the Kindle.
+
+Step 5: Copy the 5.16.2.1 file to the Kindle, select Update, and perform the steps from the beginning.
 
 https://www.youtube.com/watch?v=RO2zQXvVuJY&t=1s
 
